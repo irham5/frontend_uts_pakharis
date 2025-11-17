@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distro.co</title>
+    <script src="toko.js///"></script>
+    <style>
+      /* ======== GAYA DASAR ======== */
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #2b2b2b);
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        color: #fbd686;
+        letter-spacing: 4px;
+        text-shadow: 0 0 10px #fbd686;
+        font-size: 45px;
+        margin-top: 40px;
+        animation: fadeInDown 1s ease;
+      }
+
+      h3 {
+        text-align: center;
+        color: #fbd686;
+        margin-top: 5px;
+        font-weight: 400;
+        animation: fadeIn 1.5s ease;
+      }
+
+      h5 {
+        color: #fbd686;
+        margin-top: 20px;
+        text-transform: uppercase;
+      }
+
+      p {
+        text-align: center;
+        color: #eaeaea;
+        font-size: 18px;
+        margin: 20px 80px;
+        line-height: 1.6;
+      }
+
+      /* ======== GAMBAR DAN PRODUK ======== */
+      img {
+        border-radius: 10px;
+        margin: 8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      img:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 15px #fbd686;
+      }
+
+      /* ======== LIST ======== */
+      ul {
+        list-style-type: none;
+        padding-left: 20px;
+      }
+
+      li {
+        margin: 5px 0;
+        font-size: 17px;
+        transition: color 0.3s;
+      }
+
+      li:hover {
+        color: #fbd686;
+      }
+
+      /* ======== TABEL PROMO ======== */
+      table {
+        border-collapse: collapse;
+        width: 60%;
+        margin: 20px auto;
+        box-shadow: 0 0 15px rgba(251, 214, 134, 0.3);
+      }
+
+      td,
+      th {
+        border: 1px solid #fbd686;
+        text-align: left;
+        padding: 12px;
+      }
+
+      th {
+        background-color: #fbd686;
+        color: #1a1a1a;
+        text-transform: uppercase;
+      }
+
+      tr:hover {
+        background-color: rgba(251, 214, 134, 0.1);
+        transition: 0.3s;
+      }
+
+      /* ======== LINK ======== */
+      a {
+        color: #fbd686;
+        text-decoration: none;
+        font-size: 18px;
+        margin: 0 8px;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #fff;
+        text-shadow: 0 0 10px #fbd686;
+      }
+
+      /* ======== ANIMASI ======== */
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* ======== FOOTER ======== */
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: #999;
+        font-size: 14px;
+      }
+
+      /* ======== CONTAINER GAMBAR ======== */
+      .gallery {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* ======== LOGO ======== */
+      .logo {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .logo img {
+        border-radius: 50%;
+        box-shadow: 0 0 15px #fbd686;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>DISTRO.CO</h1>
+    <h3>by Nahrul Irham</h3>
+
+    <div class="logo">
+      <img src="logo.png" alt="logo distro" width="180px" height="180px" />
+    </div>
+
+    <p>
+      <strong>Distro.co</strong> adalah brand streetwear lokal sejak 2023 yang
+      membawa semangat anak skena: bebas, kreatif, dan penuh karakter. Koleksi
+      kami dibuat terbatas, dengan desain khas grunge dan indie style yang
+      anti-mainstream.
+    </p>
+
+    <h3>Katalog Produk</h3>
+
+    <h5>Baju Skena</h5>
+    <ul>
+      <li>Kaos Oversized "Noise Culture" — Rp120.000</li>
+      <li>Kaos Boxy "Broken Youth" — Rp130.000</li>
+      <li>Hoodie "Skena Never Dies" — Rp210.000</li>
+    </ul>
+
+    <div class="gallery">
+      <img src="download.jpeg" alt="kaos" width="170px" />
+      <img src="download (1).jpeg" alt="kaos" width="160px" />
+      <img src="download (2).jpeg" alt="hoodie" width="160px" />
+    </div>
+
+    <h5>Celana Skena</h5>
+    <ul>
+      <li>Cargo Pants "Rebel Route" — Rp180.000</li>
+      <li>Baggy Jeans "Old Scene" — Rp190.000</li>
+      <li>Chino Loose "Midnight Club" — Rp170.000</li>
+    </ul>
+
+    <div class="gallery">
+      <img src="download (3).jpeg" alt="cargo" width="160px" />
+      <img src="download (4).jpeg" alt="baggy" width="160px" />
+      <img src="download (5).jpeg" alt="chino" width="150px" />
+    </div>
+
+    <h5>Aksesoris Skena</h5>
+    <ul>
+      <li>Beanie "Darkwave" — Rp75.000</li>
+      <li>Kalung "Rust Chain" — Rp65.000</li>
+      <li>Tote Bag "Scene Kid Essential" — Rp85.000</li>
+    </ul>
+
+    <div class="gallery">
+      <img src="download (6).jpeg" alt="beanie" width="170px" />
+      <img src="download (7).jpeg" alt="kalung" width="160px" />
+      <img src="images.jpeg" alt="tote bag" width="153px" />
+    </div>
+
+    <h3>Promo & Koleksi</h3>
+    <table>
+      <tr>
+        <th>Paket</th>
+        <th>Deskripsi</th>
+      </tr>
+      <tr>
+        <td>Street Pack</td>
+        <td>2 Kaos + 1 Aksesoris (Gratis Stiker Distro.co)</td>
+      </tr>
+      <tr>
+        <td>Promo Member</td>
+        <td>Diskon 15% untuk komunitas lokal</td>
+      </tr>
+      <tr>
+        <td>Free Ongkir</td>
+        <td>Pembelian di atas Rp250.000</td>
+      </tr>
+    </table>
+
+    <h3>Kontak Kami</h3>
+    <p>
+      <a href="https://www.instagram.com/" target="nhrirhm">Instagram</a> |
+      <a href="https://api.whatsapp.com/send?phone=6282223949220">WhatsApp</a>
+    </p>
+
+    <footer>© 2025 Distro.co — Stay Real, Stay Skena.</footer>
+  </body>
+</html>
